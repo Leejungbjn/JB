@@ -2,6 +2,8 @@
 
 ## 3/10
 
+**HTML**
+
 ----
 
 **sublime**(개발자에디터)
@@ -22,14 +24,38 @@ subl .` - 서블실행
 
 `start .` - 탐색기
 
+
+
+
+
 **웹서버 환경 설정하기**(browser-sync install)
 
 nodejs.org 설치 >> gitbash run >> `node --version` (버전확인) >> `npm install --global browser-sync` >>>`browser-sync --version`(버전확인) >>`npm i(install) -g(--global) browser-sync`	>> 
  http://browsersync.io *에서명령어확인* >>`browser-sync start --sever`
 
+**Design**
 
+---
 
+CMYK - 인쇄용 , RGB - 웹/영상용
 
+일러스트 xidoweb.com 교육자료
+
+## 3/11
+
+**html**
+
+---
+
+entity code - 웹에 표시되는 기호
+
+ul의 하위는 li
+
+ol의 하위는 li
+
+img , a href 는 무조건 div가 묶어줘야된다.
+
+div 박스 div 고무줄
 
 ---
 
@@ -87,3 +113,5 @@ http://brackets.io/
 -----
 
 http://brwosersync.io --  명령어 모음
+
+http://xidoweb.com --- 교육자료
