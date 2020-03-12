@@ -57,7 +57,66 @@ img , a href 는 무조건 div가 묶어줘야된다.
 
 div 박스 div 고무줄
 
+
+
+## 3/12
+
+HTML
+
 ---
+
+section 과 article 은 경계가 모호하다. 
+
+class 로 아이디를 나누어서 스타일을 준다. 스페이스는 하위 에 다 적용된다는 뜻이며
+
+
+
+css에서 @로 시작하는 명령어는 ; 붙인다
+
+- reset css: 브라우저간  표시되는 기본 값을 초기화시켜주는 것
+
+https://meyerweb.com/eric/tools/css/reset/  meyer <- 유명코더
+
+UI.DAUM.NET 다음 내부 코더들을 위한 페이지
+
+
+
+**그래픽**
+
+---
+
+웹스타일 사이트
+
+- gdweb.co.kr
+- cssawards.net 
+- csswinner.com
+
+참고사이트
+
+- https://theoutpost.ru/
+  oneplus.com
+  apple.kr
+
+아이콘사이트
+
+- flaticon.com
+
+
+
+*WEB - 웹접근성*
+
+COLOR : 색약/색맹/난시
+명도 : 글씨색, 배경[4.5:1 OR 3:1(14pt bold || 18pt)]
+			
+
+프로그램 - colour contrast analyser(https://developer.paciellogroup.com/resources/contrastanalyser/)
+dmg파일 -mac 용 exe,zip,msi - 윈도우용,  yml,zip,tar.gz - 리눅스용
+
+
+
+웹접근성 연구소](https://www.wah.or.kr:444/)
+
+
 
 # QnA
 
