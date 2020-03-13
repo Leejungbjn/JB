@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="ko-KR">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-Ua-Compatilbe" content="IE=edge">
+	<!--[if IE]>
+	<script src="./ie/html5shiv/dist/html5shiv.min.js"></script>
+	<![endif]-->
+	<title>Layout 연습하기1</title>
+	<!-- css -->
+	<style>
+		/* reset.css */
+		html, body{width:100% height:100%;}
+		html,body,
+		h1,h2,h3,h4,h5,h6,
+		p,pre,div,img,ul,ol,li,dl,dt,dd{margin:0; padding:0;}
+		ul,ol,li{list-style:none;}
+
+		header,article,section,aside,nav,footer,main,figure{disply:block;}
+		
+		/* margin-top:100px; margin-left:100px; margin-bottom:; */		
+		#box{margin:200px auto;
+			width:600px; height:auto; background-color:blue;}
+			/* 내용상 수치가 있을시 auto로 하면 자동으로 그값에 맞춘다 */
+		#headBox{width:100%; height:100px; background-color:pink; }
+		#sectionBox{width:100%; height:auto; background-color:yellow;}		  
+		.aside_area{float:left; width:40%; height:300px; background:#f06;}
+        .article_area{float:left; width:50%; height:300px; background-color:#f7f;}
+        .more{float:left; width:100px; height:100px; background-color:#fff;
+        	border-width:1px; border-color:#000; border-style:solid; }
+
+        .pan{clear:both; width:100%; height:0; background-color:#777;}
+
+		#footBox{width:100%; height:100px; background-color:lightblue;}
+	</style>
+</head>
+	<1111body>
+	<!-- layout -->	
+    <div id="box">
+    	<!-- #headBox -->
+    	<header id="headBox">
+    		header
+    	</header>
+    	<!-- // #headBox -->
+    	<!-- #sectionBox -->
+    	<section id="sectionBox">
+    		<aside class="aside_area"></aside>
+    		<article class="article_area"></article>
+    		<div class="more">임시추가상자</div>
+    		<div class="more">임시추가상자</div>
+    		<div class="more">임시추가상자</div>
+    		<div class="more">임시추가상자</div>
+    		<div class="more">임시추가상자</div>
+    		<div class="more">임시추가상자</div>
+    		<div class="more">임시추가상자</div>
+    		<div class="more">임시추가상자</div>
+    		<div class="more">임시추가상자</div>
+    		<div class="more">임시추가상자</div>
+
+    		<div class="pan"></div>
+    		
+    	</section>
+    	<!-- // #sectionBox -->
+    	<!-- #footbox -->
+    	<footer id="footBox">
+    		footer
+    	</footer>
+    	<!-- // #footbox -->
+    
+    </div>
+	<!-- script -->
+	<script></script>
+	</body>
+</html>
