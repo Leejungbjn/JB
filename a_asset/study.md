@@ -1,5 +1,44 @@
 # study
 
+
+
+1. 
+
+```html
+<!DOCTYPE html>
+<!-- a_basic_mpbo.html -->
+<html lang="ko-KR">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	content="IE=edge">
+	<!--[if IE]>
+	<script src="./ie/html5shiv/dist/html5shiv.min.js"></script>
+	<![endif]-->
+	<title>MPBO 이해하기</title>
+	<!-- style -->
+	<style> html, body{width:100% height:100%;}
+		html,body,
+		h1,h2,h3,h4,h5,h6,
+		p,pre,div,img,ul,ol,li,dl,dt,dd{margin:0; padding:0; border:0; outline:0;}
+
+		ul,ol,li{list-style:none;}
+
+		/* design.css */
+	</style>
+</head>
+<body>
+	<!-- layout -->
+
+	<!-- script -->
+	<script></script>
+</body>
+</html>
+		
+```
+
+
+
 ## 3/10
 
 **HTML**
@@ -116,6 +155,55 @@ dmg파일 -mac 용 exe,zip,msi - 윈도우용,  yml,zip,tar.gz - 리눅스용
 
 웹접근성 연구소](https://www.wah.or.kr:444/)
 
+## 3/13
+
+----
+
+1. []layout 1~2
+2. []pen tool(for illustrator)
+3. []pathfinder, align...
+
+그래픽은 pt12와 12px이 같다 
+하지만 웹에서는 16px이 12pt이다. (web단위 - px, % , em, rem, vw, vh, pc ..등등)
+
+16px = 1em
+
+```html
+float:left                  //띄워서 채워넣기
+float:right					//''
+clear:both					//높이를 유지하는 막
+display:inline
+display:block
+display:none
+```
+
+```html
+margin:10px 20px; // 상하 10픽셀 좌우 20픽셀
+margin:10px; 		//상하좌우 10픽셀
+margin:10px 20px 30px // 상 10 좌우 20 하 30
+margin:10px 20px 30px 40px / 상 10,우 20,하 30, 좌 40
+```
+
+1상 2우 3하 4좌 >>> 1개값은 1개로 4개값
+									2개값은 2개로 4개
+									3개값은 나머지하나를 되돌려서
+
+자손선택자 
+#box #header ul li
+
+자식선택자 
+#header > h1
+
+## 3/16
+---
+
+1. 요소와 class중 class우선 (의미없는이름x)
+2. class와 ID중 class우선
+3. 부모's 요소에서 부터 우선 (4단계이상x)
+4. 인라인요소가우선
+5. !imporfont 무조건 우선 -->생각하고 픽
+
+
 
 
 # QnA
@@ -124,6 +212,14 @@ dmg파일 -mac 용 exe,zip,msi - 윈도우용,  yml,zip,tar.gz - 리눅스용
 2. 소개된 프로그램들은 전부다 섭렵해야하는 건가?
 
 
+
+browser-sync start --server --watch --files "jisan_web.html"
+
+chromevox classic extension ( 접근성 음성확인)
+
+```html
+<span aria-hidden="true"> // 묵음처리태그
+```
 
 
 
@@ -174,3 +270,89 @@ http://brackets.io/
 http://brwosersync.io --  명령어 모음
 
 http://xidoweb.com --- 교육자료
+
+-----
+
+https://htmlreference.io/  // css 레퍼런스도있음
+https://www.w3schools.com/ 	// 로우레벨 권유하진 않음 (파악인지용도로만)
+https://developer.mozilla.org/ko/  	//추천 [exam -> search ''mdn float'']
+
+
+
+
+
+
+
+#### Basic Setting
+
+git setting 
+
+---
+
+node.js
+
+버전확인:
+
+``` 
+$ node -v && npm -v
+```
+
+[browser-sync 설치] (http://browsersync.io)
+
+``` 
+$ npm i -g browser 
+$ browser-sync --version
+```
+
+edit
+
+---
+
+1. 컴퓨터 시스템에 경로 지정하기
+
+2. 팩키지컨트롤 설치
+   *경로지정하는방법*
+
+   win + pause > `고급시스템설정` >`환경변수`>**`시스템변수`**>**path**찾아 편집클릭>찾아보기'sublime text 3' 설치된 경로 선택(c://program files/sublime text 3)
+
+3. 실제 사용 경로에서 git bash 실행 (`subl .` )
+
+ editer setting
+
+---
+
+1. package controls 설치
+   메뉴>tools>command palette(`ctrl shift p`)>**instal package controls**설치 
+   remove package : 설치된 패키지를 제거할때
+   disable package: 설치된 패키지를 사용중지할때
+   enable package:사용중지된 팩키지를 다시 사용할때
+2. 추가 필요앱 설치시
+   `ctrl shift p` > install package 진입> 찾아설치
+
+package 주사용목록
+
+---
+
+1. convert to utf-8
+
+2. IMEsupport(mac 은 설치안함)
+
+3. sidebarEnhancerment
+
+4. Theme-soda(추천)
+
+5. fileIcon
+
+6. **INcrement selection** (ctrl alt i)
+
+7. **alignment**(ctrl alt a)
+
+8. **emmet**
+
+9. **emmet css**
+
+10. **outline**
+
+11. **print to html**
+
+    

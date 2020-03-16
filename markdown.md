@@ -65,9 +65,10 @@
 
 #### 링크 및 이미지 보이기
 
-링크 : 시도웹
+링크 : 시도웹![mask](C:\work\JB\b_coding\a_basic\mask.png)
 
-- 시도웹 (http://xidoweb.com)
+시도웹 (http://xidoweb.com)
+
 - [xidoweb](http://xidoweb.com)
 - <a href="http://xidoweb.com">xidoweb</a>
 이미지 : 랜덤이미지 <https://picsum.photos/200/300>
