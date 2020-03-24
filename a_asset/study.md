@@ -217,12 +217,49 @@ same - fill color 같은 색 선택
 
 ctrl + 7 클리핑 마스크 보이는 부분만 나타나게하는것
 
+## 3/17
 
+**html**
+
+-------
+
+google > html kldp 검색
+
+css - position 은 철저히 계산하고 사용해야한다. 잘못쓰면 모든게 틀어진다.
+
+google > css pie
+
+
+
+## 3/18
+
+---
+
+minify, sassbeautify (subl) - 파일 깔금하게 정리하는 확장프로그램(install package)
+
+
+
+## 3/23
+
+---
+
+background-color: RGBA(255,255,255,0.7);  ///- 배경이반투명으로 변한다
+``							  : HSBA(0,50%,50%,0.5);	 ///
+---A(alpha) ///A가 투명도를 결정한다.
+
+
+
+## 3/24
+
+---
+
+1. html/css 레이아웃을 작업하기 위한 GRID세팅 (960px~1920px)
+2. 사이트구성시 html로 어떤 순서로 구성할지 (반응형) 염두하고 순서를 정한다.
 
 
 # QnA
 
-1. jQuery 는 안배워도된다던데..? 
+1. jQuery 는 안배워도된다던데..?  - 아직 50%가량 사용중이기때문에 그리고 새로운 프로그램들의 수준에 접근하기위한 단계로 배워두면좋다
 2. 소개된 프로그램들은 전부다 섭렵해야하는 건가?
 
 
@@ -234,8 +271,6 @@ chromevox classic extension ( 접근성 음성확인)
 ```html
 <span aria-hidden="true"> // 묵음처리태그
 ```
-
-
 
 
 
@@ -291,7 +326,12 @@ https://htmlreference.io/  // css 레퍼런스도있음
 https://www.w3schools.com/ 	// 로우레벨 권유하진 않음 (파악인지용도로만)
 https://developer.mozilla.org/ko/  	//추천 [exam -> search ''mdn float'']
 
+----
 
+gdweb.co.kr
+rwdb.kr      // 웹표본
+***추가추천***
+-pinterest, dribbble, beance, notopolio
 
 
 
