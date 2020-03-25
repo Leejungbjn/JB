@@ -256,6 +256,29 @@ background-color: RGBA(255,255,255,0.7);  ///- 배경이반투명으로 변한�
 1. html/css 레이아웃을 작업하기 위한 GRID세팅 (960px~1920px)
 2. 사이트구성시 html로 어떤 순서로 구성할지 (반응형) 염두하고 순서를 정한다.
 
+## 3/25
+
+---
+
+1. css layout 기능
+   - 메뉴기능
+   - sidebanner기능
+2.  
+
+** 웹디자인기능사 - photoshop , Illustrator, Brakets, Internet Explorer, Chrome
+
+"#" // 임시링크라는 의미
+
+과제
+resume infographic 검색 샘플보고 스케치
+-컬러선정
+-서체선정(google.com/fonts, 눈누)
+-사진자료(증명사진)
+-경력사항 최근을 위로 배열
+-주소 실제존제하는것
+-2페이지짜리로
+_가로로할지 세로로할지 
+
 
 # QnA
 
@@ -333,7 +356,9 @@ rwdb.kr      // 웹표본
 ***추가추천***
 -pinterest, dribbble, beance, notopolio
 
+---
 
+emmet.io 서블 단축키 
 
 
 
@@ -388,25 +413,33 @@ package 주사용목록
 ---
 
 1. convert to utf-8
-
 2. IMEsupport(mac 은 설치안함)
-
 3. sidebarEnhancerment
-
 4. Theme-soda(추천)
-
 5. fileIcon
-
 6. **INcrement selection** (ctrl alt i)
-
 7. **alignment**(ctrl alt a)
-
 8. **emmet**
-
 9. **emmet css**
-
 10. **outline**
-
 11. **print to html**
 
-    
+subl
+
+---
+
+-setting-
+```{
+	"color_scheme": "Packages/Colorsublime - Themes/cache/Colorsublime-Themes-master/themes/candy-crush.tmTheme",
+	"font_size": 12,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"theme": "Soda Dark 3.sublime-theme",
+	"tab_size": 2,
+	"translate_tabs_to_spaces": true,
+	"word_wrap": true
+}
+```
+
