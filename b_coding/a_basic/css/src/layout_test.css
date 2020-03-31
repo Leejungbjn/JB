@@ -1,0 +1,17 @@
+@charset "utf-8";
+
+/* layout_test.css */
+
+.list_wrap{width:600px; height:auto; min-height:100px;
+          margin:auto; background-color: #cdcdcd;}
+
+.list_wrap ul{width:462px; height:auto; 
+              padding:16px;
+              background-color: #fa0;}
+.list_wrap ul:after {content:""; display:block; clear:both;}
+
+.list_wrap li{float:left; width:100px; height:100px;
+              margin-right:10px; margin-bottom:8px;
+              background-color: #acf;}
+.list_wrap li:nth-child(4n){margin-right:0;}
+.list_wrap li:nth-last-child(-n+4){margin-bottom:0;}

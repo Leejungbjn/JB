@@ -1,0 +1,7 @@
+/* rwd_01_mobile.css */
+
+
+@media screen and (max-width:480px) {
+  #wrap {background-color: #acf;}
+  p:after {content:"(●'◡'●)🎃🎃🎃모바일 480이하 입니다."; color:#333;}
+}
