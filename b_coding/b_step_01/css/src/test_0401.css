@@ -1,0 +1,9 @@
+@charset "utf-8";
+/* test_0401.css */
+
+@import url("../device/test_0401_base.css");
+@import url("../device/test_0401_mob_v.css");
+@import url("../device/test_0401_mob_h.css");
+@import url("../device/test_0401_tab.css");
+@import url("../device/test_0401_pc.css");
+

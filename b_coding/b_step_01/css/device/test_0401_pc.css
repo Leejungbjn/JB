@@ -1,0 +1,32 @@
+/* test_0401_pc.css */
+
+@media screen and 
+  (min-width:960px){
+
+
+#headBox {
+  /* height:60px; */ 
+  }
+
+#viewBox {
+  height:450px; 
+  }
+
+#contentBox {max-width:1200px;
+  height:210px; margin:auto;
+  }
+
+#infoBox {max-width:1200px;
+  height:540px; margin:auto;
+  }
+
+#footBox {
+  height:120px; height:2.5rem;
+  }   
+
+
+  /* @media end*/
+  }
+  
+
+
