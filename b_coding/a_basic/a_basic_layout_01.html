@@ -1,65 +1,74 @@
-<!doctype html>
+<!DOCTYPE html>
+<!-- a_basic_layout_01.html -->
 <html lang="ko-KR">
 <head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-Ua-Compatilbe" content="IE=edge">
-	<!--[if IE]>
-	<script src="./ie/html5shiv/dist/html5shiv.min.js"></script>
-	<![endif]-->
-	<title>Layout 연습하기1</title>
-	<!-- css -->
-	<style>
-		/* reset.css */
-		html, body{width:100% height:100%;}
-		html,body,
-		h1,h2,h3,h4,h5,h6,
-		p,pre,div,img,ul,ol,li,dl,dt,dd{margin:0; padding:0;}
-		ul,ol,li{list-style:none;}
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!--[if IE]>
+    <script src="./ie/html5shiv/dist/html5shiv.min.js"></script>
+  <![endif]-->
+  <title>Layout 연습하기1</title>
+  <!-- css -->
+  <style>
+    /* reset.css */
+    html, body {width:100%; height:100%;}
+    html,body,
+    h1,h2,h3,h4,h5,h6,
+    p,pre,div,img,ul,ol,li,dl,dt,dd {margin:0; padding:0;}
+    ul,ol,li {list-style:none;}
 
-		header,article,section,aside,nav,footer,main,figure{display:block;}
-		
-		/* margin-top:100px; margin-left:100px; margin-bottom:; */		
-		#box{margin:200px auto;
-			width:600px; height:auto; background-color:blue;}
-			/* 내용상 수치가 있을시 auto로 하면 자동으로 그값에 맞춘다 */
-		#headBox{width:100%; height:100px; background-color:pink; }
-		#sectionBox{width:100%; height:auto; background-color:yellow;}		  
-		.section_child{float:left; width:70%; height:150px;}
-		.aside_area{float:right; width:30%; height:300px; background:#f06;}
-        .article_area{ background-color:#f7f;}
-        .container_area{ background-color:#007;}
 
-        .pan {clear:both; width:100%; height:0; background-color:#777;}
+    header,article,section,aside,nav,footer,main,figure {display:block;}
 
-		#footBox{width:100%; height:100px; background-color:lightblue;}
-	</style>
+    /* design */
+    #box{margin:200px auto; width:600px; height:auto;}
+
+    #headBox{width:100%; height:100px; background-color:pink;
+            padding:10px; box-sizing:border-box;}
+      #headBox > h1{float:left; width:80px; height:80px; background-color: #fff;}
+      #navBox{float:right; margin-top:30px; width:400px; height:50px; background-color: #fff;}
+
+    #sectionBox{width:100%; height:auto;}
+      .section_child{float: left; width:70%; height:150px;}
+      .article_area{background-color: #f7f;}
+      .container_area{background-color: #333;}
+      .aside_area{float:right; margin-top:-150px; width:30%; height:300px; background-color: #f06;}
+
+      .pan {clear:both; width:100%; height:0; background-color: #777;} 
+
+    #footBox{width:100%; height:100px; background-color:lightblue;}
+
+  </style>
 </head>
-	<1111body>
-	<!-- layout -->	
-    <div id="box">
-    	<!-- #headBox -->
-    	<header id="headBox">
-    		header
-    	</header>
-    	<!-- // #headBox -->
-    	<!-- #sectionBox -->
-    	<section id="sectionBox">
-    		<aside class="aside_area section_child">aside</aside>
-    		<article class="article_area section_child">article</article>
-    		<article class="container_area section_child">container</article>
-    		
-    		<div class="pan"></div>
-    		
-    	</section>
-    	<!-- // #sectionBox -->
-    	<!-- #footbox -->
-    	<footer id="footBox">
-    		footer
-    	</footer>
-    	<!-- // #footbox -->
-    
-    </div>
-	<!-- script -->
-	<script></script>
-	</body>
+<body>
+  <!-- layout -->
+  <div id="box">
+    <!-- #headBox -->
+    <header id="headBox"> 
+
+      <h1>site name</h1>
+      <nav id="navBox"></nav>
+
+    </header><!-- // #headBox -->
+
+    <!-- #sectionBox -->
+    <section id="sectionBox">
+      <article class="article_area section_child"></article>
+      <article class="container_area section_child"></article>
+      <aside class="aside_area section_child"></aside>
+
+      <div class="pan"></div>
+    </section><!-- // #sectionBox -->
+
+    <!-- #footBox -->
+    <footer id="footBox">
+      footer
+    </footer>
+    <!-- // #footBox -->
+  </div>
+
+
+  <!-- script -->
+  <script></script>
+</body>
 </html>
